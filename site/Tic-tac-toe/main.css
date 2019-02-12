@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #222;
+}
+.player {
+	/*background-color: red;*/
+	width: 400px;
+	height: 60px;
+	margin: 20px;
+	margin-top: 0;
+}
+.player input {
+	outline: none;
+	color: #eee;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-size: 1.7em;
+	background-color: #191919;
+	border: transparent;
+	width: 49.5%;
+	margin-top: 6px;
+	padding: 1%;
+}
+.playingField {
+	margin: 20px;
+	margin-bottom: 0;
+	width: 400px;
+	height: 400px;
+	background-color: #eee;
+}
+.fieldCells {
+	box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+	height: 33.33%;
+	margin-right: 0px;
+	border: 1px solid #222;
+	background: url(tic-tac-toe-hi.png) no-repeat;
+	background-size: 210%;
+	background-position: 140px 0;
+}
+.cross {
+	background-position: -142px 5px;
+}
+.null {
+	background-position: 8px 5px;
+}
