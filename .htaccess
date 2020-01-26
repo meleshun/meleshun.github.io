@@ -3,13 +3,15 @@ RewriteRule ^index.html$ / [QSA,R]
 
 ErrorDocument 404 /
 
-Redirect 301 /site/ https://meleshun.github.io
-Redirect 301 /site/tajem/ https://meleshun.github.io
-Redirect 301 /site/telegram/
-Redirect 301 /site/line-chart/
-Redirect 301 /site/bar-charts/
-Redirect 301 /site/coraltravel/
-Redirect 301 /site/Tic-tac-toe/
-Redirect 301 /site/misocial/
-Redirect 301 /site/pokerAlpha/
-Redirect 301 /site/barbershop-borodinski/
+Redirect 301 /en/ /
+Redirect 301 /ru/ /
+Redirect 301 /tandem/ /
+Redirect 301 /site/ /
+Redirect 301 /site/coraltravel/listing.html /
+Redirect 301 /site/tajem/ /
+Redirect 301 /site/misocial/ /
+Redirect 301 /site/barbershop-borodinski/catalog.html /
+Redirect 301 /site/barbershop-borodinski/index.html /
+Redirect 301 /site/telegram/ /
+Redirect 301 /site/barbershop-borodinski/ /
+Redirect 301 /website/telegram /

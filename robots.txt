@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /en/
+Disallow: /ru/
+Disallow: /tandem/
+Disallow: /site/
+Disallow: /site/coraltravel/listing.html
+Disallow: /site/tajem/
+Disallow: /site/misocial/
+Disallow: /site/barbershop-borodinski/catalog.html
+Disallow: /site/barbershop-borodinski/index.html
+Disallow: /site/telegram/
+Disallow: /site/barbershop-borodinski/
+Disallow: /website/telegram
